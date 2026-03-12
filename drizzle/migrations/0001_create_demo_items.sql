@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS demo_items (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT NOT NULL,
-  created_at INTEGER NOT NULL DEFAULT (unixepoch() * 1000)
-);
